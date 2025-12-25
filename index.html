@@ -21,7 +21,15 @@ a{ color:inherit; text-decoration:none; }
 <body>
 <main>
   <h1>Reiki</h1>
-  <p>Stillness · Presence · Care</p>
-</main>
-</body>
+  <p id="enter">Stillness · Presence · Care</p>
+<div id="page2" style="display:none;">
+  <img src="A_digital_photograph_features_seven_polished_cryst.png"
+       style="height:1em; margin-top:1em;">
+</div></main>
+<script>
+document.getElementById("enter").onclick = function(){
+  this.style.display = "none";
+  document.getElementById("page2").style.display = "block";
+};
+</script></body>
 </html>
