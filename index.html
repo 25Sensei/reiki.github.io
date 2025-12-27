@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <title>Reiki</title>
 <style>
-body{
+<img
+  id="monkeyClock"
+  src="FDF5D466-8FD8-489F-9CA4-93B9988F3303.jpeg"
+  alt="Monkey clock">
+  body{
   margin:0;
   font-family: serif;
   background:#f6f4f1;
@@ -24,6 +28,14 @@ a{ color:inherit; text-decoration:none; }
   height: auto;
   z-index: 9999;
   opacity: 0.9;
+}#monkeyClock{
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  width: 120px;      /* change size if you want */
+  height: auto;
+  z-index: 9999;
+  pointer-events: none;  /* so it never blocks clicks */
 }</style>
 </head>
 <script>
