@@ -16,7 +16,15 @@ body{
 }
 main{ text-align:center; }
 a{ color:inherit; text-decoration:none; }
-</style>
+#monkeyClock{
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  width: 120px;        /* adjust size if needed */
+  height: auto;
+  z-index: 9999;
+  opacity: 0.9;
+}</style>
 </head>
 <script>
 const begin = document.getElementById("begin");
@@ -38,7 +46,10 @@ function startHour(){
 
 begin.onclick = startHour;
 </script>
-<body>
+<img
+  src="FDF5D466-8FD8-489F-9CA4-93B9988F3303.jpeg"
+  id="monkeyClock"
+  alt="Monkey clock"><body>
 <button id="begin">
 Begin session
 </button>
